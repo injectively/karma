@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes fadeIn {
+  from {
+    opacity: .5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInSecond {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes flicker {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.flicker {
+  animation: flicker 2s linear;
+}
+
+
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.gradient-text {
+  background: linear-gradient(to bottom, white, #72c0ff); /* Adjust colors as needed */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-text2 {
+  background: linear-gradient(to bottom, #a0d4ff, #219bff); /* Adjust colors as needed */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+
