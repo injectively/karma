@@ -42,7 +42,7 @@ function App() {
           </div>
           <div className='mt-16'>
             <a href="https://dexscreener.com/injective/inj1kase2dwjkga8xe6c97nhzvu2p4u0294n3l0f94" rel="noreferrer" className="flex items-center underline">
-              <img className="rounded-full w-8 h-8" src={DEXScreenerLogo} alt="DexScreenerLogo" />  {' '} DEXSCREENER{' '}
+              <img className="rounded-full w-8 h-8" src={DEXScreenerLogo} alt="DexScreenerLogo" />  {' '} DEXSCREENER {' '}
             </a>
           </div>
           <div className='mt-12'>
