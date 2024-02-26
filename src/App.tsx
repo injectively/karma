@@ -3,6 +3,7 @@ import { FaTelegramPlane } from 'react-icons/fa';
 import { RiTwitterXLine } from 'react-icons/ri';
 import CoinhallLogo from './assets/coinhall.svg';
 import AstroportLogo from './assets/astroport.svg';
+import DEXScreenerLogo from './assets/dexscreener.svg';
 
 function App() {
   return (
@@ -33,19 +34,24 @@ function App() {
           </div>
 
           
-    <div className='grid grid-cols-2  place-content-around  justify-items-center  rounded-md '>
+    <div className='grid grid-cols-3  place-content-around  justify-items-center  rounded-md '>
           <div className='mt-12 text-center flex items-center '>
             <a href="https://coinhall.org/injective/inj1kase2dwjkga8xe6c97nhzvu2p4u0294n3l0f94" rel="noreferrer" className="flex items-center underline">
-              <img className="rounded-full w-10 h-10" src={CoinhallLogo} alt="CoinHallLogo" />  {' '} Coinhall{' '}
+              <img className="rounded-full w-16 h-16" src={CoinhallLogo} alt="CoinHallLogo" />  {' '} Coinhall{' '}
             </a>
           </div>
-          <div className='mt-12  '>
+          <div className='mt-16'>
+            <a href="https://dexscreener.com/injective/inj1kase2dwjkga8xe6c97nhzvu2p4u0294n3l0f94" rel="noreferrer" className="flex items-center underline">
+              <img className="rounded-full w-8 h-8" src={DEXScreenerLogo} alt="DexScreenerLogo" />  {' '} DEXSCREENER{' '}
+            </a>
+          </div>
+          <div className='mt-12'>
             <a href="https://app.astroport.fi/swap?to=factory/inj1d4ld9w7mf8wjyv5y7fnhpate07fguv3s3tmngm/karmainj&from=inj" rel="noreferrer" className="flex items-center underline">
               <img className="rounded-full w-16 h-16" src={AstroportLogo} alt="AstropPortLogo" />  {' '} Astroport{' '}
             </a>
           </div>
           </div>
-          <div className="text-xs mt-16 text-center gradient-text2">$KARMA is a MEME coin with no intrinsic value or expectation of financial return. The coin is for entertainment purposes only. #DYOR
+          <div className="text-xs mt-16 text-center gradient-text2">$KARMA is a community owned MEME coin with absolutely no intrinsic value nor expectation of financial return. The coin is for entertainment purposes only. #DYOR #NFA
           </div>
         </div>
       </div>
